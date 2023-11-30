@@ -1,0 +1,161 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+div.container{
+    height: 100vh;
+}
+
+div.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: black;
+    padding: 20px 0 20px 2%;
+    box-shadow: 3px 0 0 rgb(120, 34, 182);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 2s;
+}
+
+div.menu-lateral:hover{
+    width: 200px;
+}
+
+
+.expandir{
+    width: 100%;
+    padding-left: 5px;
+}
+
+.expandir > i {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li {
+    height: 100px;
+    list-style-type: none;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 30px;
+}
+
+ul li.item-menu:hover{
+    background: rgb(120, 34, 182);
+}
+
+ul li.item-menu{
+    transition: 3s;
+}
+
+ul li.item-menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 2%;
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+}
+
+.title h1{
+    display: flex;
+    color: #fff;
+    font-size: 30px;
+    padding: 3rem;
+    justify-content: start;
+    padding-left: 8rem;
+}
+
+header{
+    background-color: rgb(120, 34, 182);
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    padding-left: 5rem;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.links a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagens{
+    display: flex;
+}
+
+
+.imagens img{
+    background-color: black;
+    margin: 2.8rem;
+    padding: 2rem;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    border-radius: 2rem;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+}
+
+
+.texto p{
+    background-color: black;
+    display: flex;
+    text-decoration: #fff;
+    font-size: 20px;
+    color: #fff;
+    height: 10rem;
+    width: 70.8rem;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 2.1rem;
+}
+
+.title h1:hover{
+    overflow: visible;
+}
+
